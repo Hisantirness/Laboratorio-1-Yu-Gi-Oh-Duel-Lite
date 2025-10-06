@@ -13,15 +13,19 @@ Mini-app de escritorio en Java Swing que simula un duelo sencillo usando la API 
   ```bash
   mvn -q exec:java
   ```
-## Capturas de ejecucion
-Carga de API
-<img src="[Carga de API](https://imgur.com/nycFbM8)" alt="Texto alternativo" width="700"/>
-API cargada
-<img src="[API cargada](https://imgur.com/JQ1rsB6)" alt="Texto alternativo" width="700"/>
-Batalla con la IA
-<img src="[API cargada](https://imgur.com/pHILsxv)" alt="Texto alternativo" width="700"/>
-Reinicio de la App
-<img src="[API cargada](https://imgur.com/H2T35HX)" alt="Texto alternativo" width="700"/>
+## Capturas de ejecución
+
+**Carga de API**  
+<img src="https://i.imgur.com/nycFbM8.png" alt="Carga de API" width="700"/>
+
+**API cargada**  
+<img src="https://i.imgur.com/JQ1rsB6.png" alt="API cargada" width="700"/>
+
+**Batalla con la IA**  
+<img src="https://i.imgur.com/pHILsxv.png" alt="Batalla con la IA" width="700"/>
+
+**Reinicio de la App**  
+<img src="https://i.imgur.com/H2T35HX.png" alt="Reinicio de la App" width="700"/>
 
 ## Explicación de diseño
 La aplicación está organizada por capas para separar responsabilidades. El cliente de API (`co.univalle.ygo.api.ClienteYgoApi`) usa `java.net.http.HttpClient` para consultar YGOProDeck y obtener cartas tipo Monster desde el endpoint `cardinfo.php`, aplicando un tipo de monstruo y un desplazamiento aleatorio. De cada carta se toman nombre, ATK, DEF e imagen oficial.
